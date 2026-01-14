@@ -15,8 +15,20 @@ body {
   background-color: #f5f5f5;
 }
 
-header {
-  text-align: center;
+ul.participants-list {
+    list-style-type: none; /* Hide bullet points */
+    padding: 0;
+}
+
+div.participants-section {
+    margin-top: 10px;
+}
+
+div.participants-section .delete-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+}
   padding: 20px 0;
   margin-bottom: 30px;
   background-color: #1a237e;
